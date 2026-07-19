@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Пармезан</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #f8f6f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .icon {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 20px;
+        background: #FFD54F;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    }
+
+    /* Дірочки в сирі */
+    .hole {
+        position: absolute;
+        background: #f8f6f1;
+        border-radius: 50%;
+    }
+
+    .h1 { width:20px;height:20px;top:20px;left:25px;}
+    .h2 { width:14px;height:14px;top:55px;left:70px;}
+    .h3 { width:18px;height:18px;top:75px;left:35px;}
+    .h4 { width:12px;height:12px;top:30px;left:75px;}
+
+    h1 {
+        font-size: 48px;
+        color: #3b2f2f;
+        letter-spacing: 2px;
+    }
+
+    p {
+        margin-top: 10px;
+        color: #777;
+        font-size: 18px;
+    }
+</style>
+</head>
+<body>
+
+<div class="logo">
+    <div class="icon">
+        <div class="hole h1"></div>
+        <div class="hole h2"></div>
+        <div class="hole h3"></div>
+        <div class="hole h4"></div>
+    </div>
+
+    <h1>Пармезан</h1>
+    <p>Смак, який надихає</p>
+</div>
+<script>
+  window.Albatros = window.Albatros || function(){ (Albatros.q = Albatros.q || []).push(arguments) };
+  window.albatrosSettings = { color: '#4f46e5', apiUrl: 'https://albatros-backend-t8dj.onrender.com' };
+</script>
+<script src="https://albatros-frontend.onrender.com/embed.js" async></script>
+</body>
+</html>
